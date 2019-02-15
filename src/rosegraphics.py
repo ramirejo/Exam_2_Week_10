@@ -1368,7 +1368,7 @@ class Rectangle(_RectangularShape, _ShapeWithOutline):
        w = rect.get_width()
     """
 
-    def __init__(self, corner_1, corner_2):
+    def __init__(self, corner_1: object, corner_2: object) -> object:
         """
          :type  corner_1:  rg.Point
          :type  corner_2:  rg.Point
